@@ -1,6 +1,9 @@
 x-airflow-common:
   &airflow-common
   image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:latest-python3.11}
+  # build:
+  #   context: .
+  #   dockerfile: Dockerfile
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
@@ -10,7 +13,11 @@ x-airflow-common:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
+    - /var/run/docker.sock:/var/run/docker.sock
+    - ~/.docker/config.json:/root/.docker/config.json
   user: "${AIRFLOW_UID:-50000}:0"
+  env_file:
+      - .env
   depends_on:
     &airflow-common-depends-on
     airflow-postgres:

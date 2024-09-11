@@ -1,53 +1,36 @@
 from airflow import DAG
-from airflow.operators.python import PythonOperator
-from datetime import datetime
-import time
+from airflow.providers.docker.operators.docker import DockerOperator
+from airflow.utils.dates import days_ago
 
-# Define the DAG
+host = 'host.docker.internal'
+
+# Default arguments for the DAG
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2023, 9, 10),
-    'retries': 1
+    'start_date': days_ago(1),
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries': 1,
 }
 
-# Initialize the DAG
+# Define the DAG
 dag = DAG(
-    'simple_dag_example',   # DAG name
+    'docker_operator_example',
     default_args=default_args,
-    description='A simple example DAG',
-    schedule_interval='@daily',  # Run once a day
+    description='An example DAG with DockerOperator',
+    schedule_interval=None,
 )
 
-# Task 1: Print start message
-def print_start_message():
-    print("Starting the DAG!")
-
-start_task = PythonOperator(
-    task_id='start_message',
-    python_callable=print_start_message,
-    dag=dag
+# Define the DockerOperator task
+run_docker_task = DockerOperator(
+    task_id='run_docker_container',
+    image='kiwisaki/redp:scraping-service-latest',  # Replace with your image
+    network_mode='bridge',  # Optional: specify if using network mode
+    docker_url='unix://var/run/docker.sock',
+    api_version='auto',
+    auto_remove=True,  # Auto-remove container after running
+    mount_tmp_dir=False,  # Mount tmp dir
+    dag=dag,
 )
 
-# Task 2: Sleep for 5 seconds
-def sleep_task():
-    time.sleep(5)
-
-sleep_task = PythonOperator(
-    task_id='sleep_task',
-    python_callable=sleep_task,
-    dag=dag
-)
-
-# Task 3: Print completion message
-def print_completion_message():
-    print("DAG complete!")
-
-completion_task = PythonOperator(
-    task_id='completion_message',
-    python_callable=print_completion_message,
-    dag=dag
-)
-
-# Define the task dependencies
-start_task >> sleep_task >> completion_task

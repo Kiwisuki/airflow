@@ -1,0 +1,409 @@
+[2024-09-11T19:21:36.362+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-11T19:21:36.372+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: docker_operator_example.run_docker_container manual__2024-09-11T19:21:35.826617+00:00 [queued]>
+[2024-09-11T19:21:36.375+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: docker_operator_example.run_docker_container manual__2024-09-11T19:21:35.826617+00:00 [queued]>
+[2024-09-11T19:21:36.375+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-09-11T19:21:36.381+0000] {taskinstance.py:2888} INFO - Executing <Task(DockerOperator): run_docker_container> on 2024-09-11 19:21:35.826617+00:00
+[2024-09-11T19:21:36.384+0000] {standard_task_runner.py:72} INFO - Started process 193 to run task
+[2024-09-11T19:21:36.386+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'docker_operator_example', 'run_docker_container', 'manual__2024-09-11T19:21:35.826617+00:00', '--job-id', '284', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/tmp/tmps9ejxdwl']
+[2024-09-11T19:21:36.388+0000] {standard_task_runner.py:105} INFO - Job 284: Subtask run_docker_container
+[2024-09-11T19:21:36.414+0000] {task_command.py:467} INFO - Running <TaskInstance: docker_operator_example.run_docker_container manual__2024-09-11T19:21:35.826617+00:00 [running]> on host 6c718629247e
+[2024-09-11T19:21:36.469+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='docker_operator_example' AIRFLOW_CTX_TASK_ID='run_docker_container' AIRFLOW_CTX_EXECUTION_DATE='2024-09-11T19:21:35.826617+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-11T19:21:35.826617+00:00'
+[2024-09-11T19:21:36.469+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-11T19:21:36.498+0000] {docker.py:496} INFO - ::group::Pulling docker image kiwisaki/redp:scraping-service-latest
+[2024-09-11T19:21:37.958+0000] {docker.py:510} INFO - scraping-service-latest: Pulling from kiwisaki/redp
+[2024-09-11T19:21:37.961+0000] {docker.py:505} INFO - Digest: sha256:cdc3887707d8a9ed14f28206735f9d44541f6452a8afce813e1493cf8eeb20bb
+[2024-09-11T19:21:37.971+0000] {docker.py:505} INFO - Status: Downloaded newer image for kiwisaki/redp:scraping-service-latest
+[2024-09-11T19:21:37.973+0000] {docker.py:512} INFO - ::endgroup::
+[2024-09-11T19:21:37.973+0000] {docker.py:367} INFO - Starting docker container from image kiwisaki/redp:scraping-service-latest
+[2024-09-11T19:21:38.223+0000] {docker.py:438} INFO - Starting script
+[2024-09-11T19:21:38.223+0000] {docker.py:438} INFO - Removing /tmp/.X0-lock
+[2024-09-11T19:21:38.223+0000] {docker.py:438} INFO - Starting Xvfb on display 0
+[2024-09-11T19:21:38.223+0000] {docker.py:438} INFO - Starting fluxbox window manager on display 0
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - Starting x11vnc on display 0
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - Starting uvicorn server
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - 11/09/2024 19:21:38 -usepw: found /root/.vnc/passwd
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - 11/09/2024 19:21:38 x11vnc version: 0.9.16 lastmod: 2019-01-05  pid: 10
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - 11/09/2024 19:21:38 XOpenDisplay(":0") failed.
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - 11/09/2024 19:21:38 Trying again with XAUTHLOCALHOSTNAME=localhost ...
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - 11/09/2024 19:21:38 ***************************************
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - 11/09/2024 19:21:38 *** XOpenDisplay failed (:0)
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - *** x11vnc was unable to open the X DISPLAY: ":0", it cannot continue.
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - *** There may be "Xlib:" error messages above with details about the failure.
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - Some tips and guidelines:
+[2024-09-11T19:21:38.224+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO - ** An X server (the one you wish to view) must be running before x11vnc is
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -    started: x11vnc does not start the X server.  (however, see the -create
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -    option if that is what you really want).
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO - ** You must use -display <disp>, -OR- set and export your $DISPLAY
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -    environment variable to refer to the display of the desired X server.
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -  - Usually the display is simply ":0" (in fact x11vnc uses this if you forget
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -    to specify it), but in some multi-user situations it could be ":1", ":2",
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -    or even ":137".  Ask your administrator or a guru if you are having
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -    difficulty determining what your X DISPLAY is.
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO - ** Next, you need to have sufficient permissions (Xauthority) 
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -    to connect to the X DISPLAY.   Here are some Tips:
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -  - Often, you just need to run x11vnc as the user logged into the X session.
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -    So make sure to be that user when you type x11vnc.
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -  - Being root is usually not enough because the incorrect MIT-MAGIC-COOKIE
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -    file may be accessed.  The cookie file contains the secret key that
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -    allows x11vnc to connect to the desired X DISPLAY.
+[2024-09-11T19:21:38.225+0000] {docker.py:438} INFO -  - You can explicitly indicate which MIT-MAGIC-COOKIE file should be used
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -    by the -auth option, e.g.:
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -        x11vnc -auth /home/someuser/.Xauthority -display :0
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -        x11vnc -auth /tmp/.gdmzndVlR -display :0
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -    you must have read permission for the auth file.
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -    See also '-auth guess' and '-findauth' discussed below.
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO - ** If NO ONE is logged into an X session yet, but there is a greeter login
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -    program like "gdm", "kdm", "xdm", or "dtlogin" running, you will need
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -    to find and use the raw display manager MIT-MAGIC-COOKIE file.
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -    Some examples for various display managers:
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -      gdm:     -auth /var/gdm/:0.Xauth
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -               -auth /var/lib/gdm/:0.Xauth
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -      kdm:     -auth /var/lib/kdm/A:0-crWk72
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -               -auth /var/run/xauth/A:0-crWk72
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -      xdm:     -auth /var/lib/xdm/authdir/authfiles/A:0-XQvaJk
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -      dtlogin: -auth /var/dt/A:0-UgaaXa
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO -    Sometimes the command "ps wwwwaux | grep auth" can reveal the file location.
+[2024-09-11T19:21:38.226+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO -    Starting with x11vnc 0.9.9 you can have it try to guess by using:
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO -               -auth guess
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO -    (see also the x11vnc -findauth option.)
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO -    Only root will have read permission for the file, and so x11vnc must be run
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO -    as root (or copy it).  The random characters in the filenames will of course
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO -    change and the directory the cookie file resides in is system dependent.
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.227+0000] {docker.py:438} INFO - See also: http://www.karlrunge.com/x11vnc/faq.html
+[2024-09-11T19:21:38.254+0000] {docker.py:438} INFO - Failed to read: session.ignoreBorder
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Failed to read: session.forcePseudoTransparency
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Failed to read: session.colorsPerChannel
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Failed to read: session.doubleClickInterval
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Failed to read: session.tabPadding
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Failed to read: session.styleOverlay
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Failed to read: session.slitlistFile
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Failed to read: session.appsFile
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Failed to read: session.tabsAttachArea
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Failed to read: session.menuSearch
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.255+0000] {docker.py:438} INFO - Failed to read: session.cacheLife
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Failed to read: session.cacheMax
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Failed to read: session.autoRaiseDelay
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Failed to read: session.ignoreBorder
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Failed to read: session.forcePseudoTransparency
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Failed to read: session.colorsPerChannel
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Failed to read: session.doubleClickInterval
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Failed to read: session.tabPadding
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Failed to read: session.styleOverlay
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.256+0000] {docker.py:438} INFO - Failed to read: session.slitlistFile
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Failed to read: session.appsFile
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Failed to read: session.tabsAttachArea
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Failed to read:
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - session.menuSearch
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Failed to read: session.cacheLife
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Failed to read: session.cacheMax
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Failed to read: session.autoRaiseDelay
+[2024-09-11T19:21:38.257+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.333+0000] {docker.py:438} INFO - 2024-09-11 19:21:38,332 [WARNING] - <src.scraping_service> - Failed to load .env file, no .env file found
+[2024-09-11T19:21:38.489+0000] {docker.py:438} INFO - Failed to read: session.screen0.opaqueMove
+[2024-09-11T19:21:38.489+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.490+0000] {docker.py:438} INFO - Failed to read: session.screen0.fullMaximization
+[2024-09-11T19:21:38.490+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.490+0000] {docker.py:438} INFO - Failed to read: session.screen0.maxIgnoreIncrement
+[2024-09-11T19:21:38.490+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.490+0000] {docker.py:438} INFO - Failed to read: session.screen0.maxDisableMove
+[2024-09-11T19:21:38.490+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.491+0000] {docker.py:438} INFO - Failed to read: session.screen0.maxDisableResize
+[2024-09-11T19:21:38.491+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.491+0000] {docker.py:438} INFO - Failed to read: session.screen0.workspacewarping
+[2024-09-11T19:21:38.491+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.491+0000] {docker.py:438} INFO - Failed to read: session.screen0.showwindowposition
+[2024-09-11T19:21:38.491+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.491+0000] {docker.py:438} INFO - Failed to read: session.screen0.autoRaise
+[2024-09-11T19:21:38.491+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.492+0000] {docker.py:438} INFO - Failed to read: session.screen0.clickRaises
+[2024-09-11T19:21:38.492+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.492+0000] {docker.py:438} INFO - Failed to read: session.screen0.defaultDeco
+[2024-09-11T19:21:38.492+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.492+0000] {docker.py:438} INFO - Failed to read: session.screen0.tab.placement
+[2024-09-11T19:21:38.492+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.492+0000] {docker.py:438} INFO - Failed to read: session.screen0.windowMenu
+[2024-09-11T19:21:38.492+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.492+0000] {docker.py:438} INFO - Failed to read: session.screen0.noFocusWhileTypingDelay
+[2024-09-11T19:21:38.493+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.493+0000] {docker.py:438} INFO - Failed to read: session.screen0.workspaces
+[2024-09-11T19:21:38.493+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.493+0000] {docker.py:438} INFO - Failed to read: session.screen0.edgeSnapThreshold
+[2024-09-11T19:21:38.493+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.493+0000] {docker.py:438} INFO - Failed to read: session.screen0.window.focus.alpha
+[2024-09-11T19:21:38.493+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.493+0000] {docker.py:438} INFO - Failed to read: session.screen0.window.unfocus.alpha
+[2024-09-11T19:21:38.493+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.494+0000] {docker.py:438} INFO - Failed to read: session.screen0.menu.alpha
+[2024-09-11T19:21:38.494+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.494+0000] {docker.py:438} INFO - Failed to read: session.screen0.menuDelay
+[2024-09-11T19:21:38.494+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.494+0000] {docker.py:438} INFO - Failed to read: session.screen0.tab.width
+[2024-09-11T19:21:38.494+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.494+0000] {docker.py:438} INFO - Failed to read: session.screen0.tooltipDelay
+[2024-09-11T19:21:38.494+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.494+0000] {docker.py:438} INFO - Failed to read: session.screen0.allowRemoteActions
+[2024-09-11T19:21:38.495+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.495+0000] {docker.py:438} INFO - Failed to read: session.screen0.clientMenu.usePixmap
+[2024-09-11T19:21:38.495+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.495+0000] {docker.py:438} INFO - Failed to read: session.screen0.tabs.usePixmap
+[2024-09-11T19:21:38.495+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.495+0000] {docker.py:438} INFO - Failed to read: session.screen0.tabs.maxOver
+[2024-09-11T19:21:38.495+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.495+0000] {docker.py:438} INFO - Failed to read: session.screen0.tabs.intitlebar
+[2024-09-11T19:21:38.496+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.496+0000] {docker.py:438} INFO - Failed to read: session.screen0.focusModel
+[2024-09-11T19:21:38.496+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.496+0000] {docker.py:438} INFO - Failed to read: session.screen0.tabFocusModel
+[2024-09-11T19:21:38.496+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.496+0000] {docker.py:438} INFO - Failed to read: session.screen0.focusNewWindows
+[2024-09-11T19:21:38.496+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.496+0000] {docker.py:438} INFO - Failed to read: session.screen0.focusSameHead
+[2024-09-11T19:21:38.497+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.497+0000] {docker.py:438} INFO - Failed to read: session.screen0.rowPlacementDirection
+[2024-09-11T19:21:38.497+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.497+0000] {docker.py:438} INFO - Failed to read: session.screen0.colPlacementDirection
+[2024-09-11T19:21:38.497+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.497+0000] {docker.py:438} INFO - Failed to read: session.screen0.windowPlacement
+[2024-09-11T19:21:38.497+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.497+0000] {docker.py:438} INFO - Failed to read: session.ignoreBorder
+[2024-09-11T19:21:38.498+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.498+0000] {docker.py:438} INFO - Failed to read: session.forcePseudoTransparency
+[2024-09-11T19:21:38.498+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.498+0000] {docker.py:438} INFO - Failed to read: session.colorsPerChannel
+[2024-09-11T19:21:38.498+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.498+0000] {docker.py:438} INFO - Failed to read: session.doubleClickInterval
+[2024-09-11T19:21:38.498+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.498+0000] {docker.py:438} INFO - Failed to read: session.tabPadding
+[2024-09-11T19:21:38.499+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.499+0000] {docker.py:438} INFO - Failed to read: session.styleOverlay
+[2024-09-11T19:21:38.499+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.499+0000] {docker.py:438} INFO - Failed to read: session.slitlistFile
+[2024-09-11T19:21:38.499+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.499+0000] {docker.py:438} INFO - Failed to read: session.appsFile
+[2024-09-11T19:21:38.499+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.499+0000] {docker.py:438} INFO - Failed to read: session.tabsAttachArea
+[2024-09-11T19:21:38.500+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.500+0000] {docker.py:438} INFO - Failed to read: session.menuSearch
+[2024-09-11T19:21:38.500+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.500+0000] {docker.py:438} INFO - Failed to read: session.cacheLife
+[2024-09-11T19:21:38.500+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.500+0000] {docker.py:438} INFO - Failed to read: session.cacheMax
+[2024-09-11T19:21:38.500+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.500+0000] {docker.py:438} INFO - Failed to read: session.autoRaiseDelay
+[2024-09-11T19:21:38.501+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.501+0000] {docker.py:438} INFO - Failed to read: session.screen0.opaqueMove
+[2024-09-11T19:21:38.501+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.501+0000] {docker.py:438} INFO - Failed to read: session.screen0.fullMaximization
+[2024-09-11T19:21:38.501+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.501+0000] {docker.py:438} INFO - Failed to read: session.screen0.maxIgnoreIncrement
+[2024-09-11T19:21:38.501+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.501+0000] {docker.py:438} INFO - Failed to read: session.screen0.maxDisableMove
+[2024-09-11T19:21:38.501+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.502+0000] {docker.py:438} INFO - Failed to read: session.screen0.maxDisableResize
+[2024-09-11T19:21:38.502+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.502+0000] {docker.py:438} INFO - Failed to read:
+[2024-09-11T19:21:38.502+0000] {docker.py:438} INFO - session.screen0.workspacewarping
+[2024-09-11T19:21:38.502+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.502+0000] {docker.py:438} INFO - Failed to read: session.screen0.showwindowposition
+[2024-09-11T19:21:38.502+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.502+0000] {docker.py:438} INFO - Failed to read: session.screen0.autoRaise
+[2024-09-11T19:21:38.502+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.502+0000] {docker.py:438} INFO - Failed to read: session.screen0.clickRaises
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Failed to read: session.screen0.defaultDeco
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Failed to read: session.screen0.tab.placement
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Failed to read: session.screen0.windowMenu
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Failed to read: session.screen0.noFocusWhileTypingDelay
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Failed to read: session.screen0.workspaces
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Failed to read: session.screen0.edgeSnapThreshold
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.503+0000] {docker.py:438} INFO - Failed to read: session.screen0.window.focus.alpha
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Failed to read: session.screen0.window.unfocus.alpha
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Failed to read: session.screen0.menu.alpha
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Failed to read: session.screen0.menuDelay
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Failed to read: session.screen0.tab.width
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Failed to read:
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - session.screen0.tooltipDelay
+[2024-09-11T19:21:38.504+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Failed to read: session.screen0.allowRemoteActions
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Failed to read
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - : session.screen0.clientMenu.usePixmap
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Failed to read: session.screen0.tabs.usePixmap
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Failed to read: session.screen0.tabs.maxOver
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Failed to read: session.screen0.tabs.intitlebar
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - Failed to read:
+[2024-09-11T19:21:38.505+0000] {docker.py:438} INFO - session.screen0.focusModel
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Failed to read: session.screen0.tabFocusModel
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Failed to read: session.screen0.focusNewWindows
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Failed to read: session.screen0.focusSameHead
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Failed to read: session.screen0.rowPlacementDirection
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Failed to read: session.screen0.colPlacementDirection
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - Failed to read:
+[2024-09-11T19:21:38.506+0000] {docker.py:438} INFO - session.screen0.windowPlacement
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Failed to read: session.screen0.slit.acceptKdeDockapps
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Failed to read: session.screen0.slit.autoHide
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Failed to read: session.screen0.slit.maxOver
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Failed to read: session.screen0.slit.placement
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Failed to read: session.screen0.slit.alpha
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Failed to read: session.screen0.slit.onhead
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Failed to read: session.screen0.slit.layer
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO - X Error of failed request:  BadMatch (invalid parameter attributes)
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO -   Major opcode of failed request:  70 (X_PolyFillRectangle)
+[2024-09-11T19:21:38.507+0000] {docker.py:438} INFO -   Serial number of failed request:  15
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO -   Current serial number in output stream:  16
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Failed to read: session.screen0.toolbar.autoHide
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Failed to read: session.screen0.toolbar.maxOver
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Failed to read: session.screen0.toolbar.visible
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Failed to read: session.screen0.toolbar.widthPercent
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Failed to read: session.screen0.toolbar.alpha
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Failed to read: session.screen0.toolbar.layer
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Failed to read: session.screen0.toolbar.onhead
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Failed to read: session.screen0.toolbar.placement
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.508+0000] {docker.py:438} INFO - Failed to read: session.screen0.toolbar.height
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Failed to read: session.screen0.toolbar.tools
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Failed to read: session.screen0.iconbar.mode
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Failed to read: session.screen0.iconbar.alignment
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Failed to read: session.screen0.iconbar.iconWidth
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Failed to read: session.screen0.iconbar.iconTextPadding
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Failed to read: session.screen0.iconbar.usePixmap
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Failed to read: session.screen0.strftimeFormat
+[2024-09-11T19:21:38.509+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:38.811+0000] {docker.py:438} INFO - INFO:     Started server process [11]
+[2024-09-11T19:21:38.811+0000] {docker.py:438} INFO - INFO:     Waiting for application startup.
+[2024-09-11T19:21:38.811+0000] {docker.py:438} INFO - 2024-09-11 19:21:38,811 [INFO] - <src.scraping_service.helpers.lifespan> - Setting up timed driver.
+[2024-09-11T19:21:38.813+0000] {docker.py:438} INFO - 2024-09-11 19:21:38,812 [INFO] - <nodriver.core.config> - detected root usage, autoo disabling sandbox mode
+[2024-09-11T19:21:38.813+0000] {docker.py:438} INFO - 2024-09-11 19:21:38,812 [INFO] - <nodriver.core.browser> - starting
+[2024-09-11T19:21:38.813+0000] {docker.py:438} INFO - 	executable :/usr/bin/chromium
+[2024-09-11T19:21:38.813+0000] {docker.py:438} INFO - 
+[2024-09-11T19:21:38.813+0000] {docker.py:438} INFO - arguments:
+[2024-09-11T19:21:38.813+0000] {docker.py:438} INFO - --remote-allow-origins=*
+[2024-09-11T19:21:38.813+0000] {docker.py:438} INFO - 	--no-first-run
+[2024-09-11T19:21:38.814+0000] {docker.py:438} INFO - 	--no-service-autorun
+[2024-09-11T19:21:38.814+0000] {docker.py:438} INFO - 	--no-default-browser-check
+[2024-09-11T19:21:38.814+0000] {docker.py:438} INFO - 	--homepage=about:blank
+[2024-09-11T19:21:38.814+0000] {docker.py:438} INFO - 	--no-pings
+[2024-09-11T19:21:38.814+0000] {docker.py:438} INFO - 	--password-store=basic
+[2024-09-11T19:21:38.814+0000] {docker.py:438} INFO - 	--disable-infobars
+[2024-09-11T19:21:38.814+0000] {docker.py:438} INFO - 	--disable-breakpad
+[2024-09-11T19:21:38.814+0000] {docker.py:438} INFO - 	--disable-component-update
+[2024-09-11T19:21:38.814+0000] {docker.py:438} INFO - 	--disable-backgrounding-occluded-windows
+[2024-09-11T19:21:38.814+0000] {docker.py:438} INFO - 	--disable-renderer-backgrounding
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-background-networking
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-dev-shm-usage
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-features=IsolateOrigins,site-per-process
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-session-crashed-bubble
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--user-data-dir=/tmp/uc_h58dxm_b
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-features=IsolateOrigins,site-per-process
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-session-crashed-bubble
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--blink-settings=imagesEnabled=false
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-blink-features=AutomationControlled
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-component-extensions-with-background-pages
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-default-apps
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-extensions
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-features=OptimizationGuideModelDownloading,OptimizationHintsFetching,OptimizationTargetPrediction,OptimizationHints
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-gpu
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--disable-sync
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--ignore-certificate-errors
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--incognito
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--proxy-bypass-list=edgedl.me.gvt1.com,optimizationguide-pa.googleapis.com,accounts.google.com,https://example.com/
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--start-maximized
+[2024-09-11T19:21:38.815+0000] {docker.py:438} INFO - 	--no-sandbox
+[2024-09-11T19:21:38.816+0000] {docker.py:438} INFO - 	--remote-debugging-host=127.0.0.1
+[2024-09-11T19:21:38.816+0000] {docker.py:438} INFO - 	--remote-debugging-port=40575
+[2024-09-11T19:21:38.816+0000] {docker.py:438} INFO - 2024-09-11 19:21:38,815 [INFO] - <nodriver.core.browser> - created process with pid 19
+[2024-09-11T19:21:39.028+0000] {docker.py:438} INFO - Failed to read: session.screen0.titlebar.left
+[2024-09-11T19:21:39.028+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:39.028+0000] {docker.py:438} INFO - Failed to read: session.screen0.titlebar.right
+[2024-09-11T19:21:39.028+0000] {docker.py:438} INFO - Setting default value
+[2024-09-11T19:21:39.074+0000] {docker.py:438} INFO - 2024-09-11 19:21:39,074 [INFO] - <nodriver.core.browser> - enabling autodiscover targets
+[2024-09-11T19:21:39.077+0000] {docker.py:438} INFO - 2024-09-11 19:21:39,077 [INFO] - <src.scraping_service.helpers.lifespan> - Driver setup complete.
+[2024-09-11T19:21:39.078+0000] {docker.py:438} INFO - INFO:     Application startup complete.
+[2024-09-11T19:21:39.078+0000] {docker.py:438} INFO - INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-09-11T19:23:38.313+0000] {local_task_job_runner.py:127} ERROR - Received SIGTERM. Terminating subprocesses
+[2024-09-11T19:23:38.315+0000] {process_utils.py:132} INFO - Sending 15 to group 193. PIDs of all processes in the group: [193]
+[2024-09-11T19:23:38.315+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 193
+[2024-09-11T19:23:38.315+0000] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-09-11T19:23:38.316+0000] {docker.py:533} INFO - Stopping docker container
