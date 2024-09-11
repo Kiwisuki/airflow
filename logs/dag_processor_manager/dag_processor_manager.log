@@ -8492,3 +8492,24 @@ File Path                      PID  Runtime      # DAGs    # Errors  Last Runtim
 ---------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
 /opt/airflow/dags/my_dag.py    225  0.00s             1           0  0.06s           2024-09-11T14:41:46                      12
 ================================================================================
+[2024-09-11T14:47:25.396+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2024-09-11T14:47:25.397+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2024-09-11T14:47:25.397+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-09-11T14:47:25.397+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2024-09-11T14:47:25.398+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-11T14:47:25.440+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/my_dag.py    172  0.01s             0           0                                                   0
+================================================================================
+[2024-09-11T14:47:55.543+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_dag.py                           1           0  0.20s           2024-09-11T14:47:25                      45
+================================================================================
