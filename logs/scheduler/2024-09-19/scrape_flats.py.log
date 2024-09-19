@@ -1,0 +1,1239 @@
+[2024-09-19T19:24:25.803+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:24:25.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:24:25.805+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:24:25.805+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:24:25.814+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:24:25.874+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:24:25.874+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:24:25.881+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:24:25.881+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:24:25.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.090 seconds
+[2024-09-19T19:24:56.558+0000] {processor.py:186} INFO - Started process (PID=202) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:24:56.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:24:56.559+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:24:56.559+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:24:56.563+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:24:56.578+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:24:56.577+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:24:56.588+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:24:56.588+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:24:56.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.043 seconds
+[2024-09-19T19:25:26.746+0000] {processor.py:186} INFO - Started process (PID=227) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:25:26.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:25:26.747+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:25:26.747+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:25:26.752+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:25:26.763+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:25:26.763+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:25:26.769+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:25:26.769+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:25:26.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.035 seconds
+[2024-09-19T19:25:56.921+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:25:56.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:25:56.923+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:25:56.922+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:25:56.930+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:25:56.944+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:25:56.944+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:25:56.952+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:25:56.952+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:25:56.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.044 seconds
+[2024-09-19T19:26:27.103+0000] {processor.py:186} INFO - Started process (PID=272) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:26:27.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:26:27.107+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:26:27.106+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:26:27.113+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:26:27.130+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:26:27.129+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:26:27.148+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:26:27.148+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:26:27.163+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.066 seconds
+[2024-09-19T19:26:57.260+0000] {processor.py:186} INFO - Started process (PID=298) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:26:57.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:26:57.263+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:26:57.262+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:26:57.272+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:26:57.286+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:26:57.285+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:26:57.292+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:26:57.292+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:26:57.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.053 seconds
+[2024-09-19T19:27:27.478+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:27:27.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:27:27.479+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:27:27.479+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:27:27.484+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:27:27.498+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:27:27.498+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:27:27.508+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:27:27.508+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:27:27.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.046 seconds
+[2024-09-19T19:27:57.704+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:27:57.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:27:57.707+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:27:57.707+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:27:57.714+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:27:57.730+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:27:57.730+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:27:57.737+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:27:57.737+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:27:57.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.050 seconds
+[2024-09-19T19:28:27.940+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:28:27.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:28:27.946+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:28:27.946+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:28:27.955+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:28:27.978+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:28:27.978+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:28:28.005+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:28:28.004+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:28:28.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.104 seconds
+[2024-09-19T19:28:58.169+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:28:58.170+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:28:58.171+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:28:58.171+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:28:58.176+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:28:58.194+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:28:58.193+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:28:58.202+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:28:58.202+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:28:58.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.046 seconds
+[2024-09-19T19:29:28.468+0000] {processor.py:186} INFO - Started process (PID=414) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:29:28.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:29:28.471+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:29:28.471+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:29:28.476+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:29:28.498+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:29:28.498+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:29:28.509+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:29:28.508+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:29:28.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.063 seconds
+[2024-09-19T19:29:58.705+0000] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:29:58.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:29:58.709+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:29:58.709+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:29:58.719+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:29:58.732+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:29:58.731+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:29:58.738+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:29:58.738+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:29:58.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.052 seconds
+[2024-09-19T19:30:28.885+0000] {processor.py:186} INFO - Started process (PID=466) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:30:28.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:30:28.887+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:30:28.887+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:30:28.894+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:30:28.922+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:30:28.922+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:30:28.941+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:30:28.941+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:30:28.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.070 seconds
+[2024-09-19T19:30:59.138+0000] {processor.py:186} INFO - Started process (PID=485) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:30:59.139+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:30:59.142+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:30:59.142+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:30:59.147+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:30:59.162+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:30:59.162+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:30:59.169+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:30:59.169+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:30:59.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.048 seconds
+[2024-09-19T19:31:29.420+0000] {processor.py:186} INFO - Started process (PID=511) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:31:29.421+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:31:29.423+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:31:29.422+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:31:29.427+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:31:29.444+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:31:29.443+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:31:29.451+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:31:29.450+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:31:29.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.043 seconds
+[2024-09-19T19:31:59.661+0000] {processor.py:186} INFO - Started process (PID=537) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:31:59.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:31:59.663+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:31:59.663+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:31:59.670+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:31:59.709+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:31:59.708+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:31:59.727+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:31:59.727+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:31:59.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.087 seconds
+[2024-09-19T19:32:29.896+0000] {processor.py:186} INFO - Started process (PID=563) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:32:29.897+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:32:29.898+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:32:29.898+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:32:29.902+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:32:29.916+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:32:29.916+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:32:29.923+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:32:29.923+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:32:29.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.041 seconds
+[2024-09-19T19:33:00.148+0000] {processor.py:186} INFO - Started process (PID=582) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:33:00.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:33:00.152+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:33:00.151+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:33:00.157+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:33:00.187+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:33:00.186+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:33:00.208+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:33:00.208+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:33:00.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.098 seconds
+[2024-09-19T19:33:30.402+0000] {processor.py:186} INFO - Started process (PID=608) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:33:30.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:33:30.407+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:33:30.407+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:33:30.415+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:33:30.440+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:33:30.440+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:33:30.447+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:33:30.447+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:33:30.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.065 seconds
+[2024-09-19T19:34:00.643+0000] {processor.py:186} INFO - Started process (PID=634) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:34:00.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:34:00.644+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:34:00.644+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:34:00.649+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:34:00.663+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:34:00.663+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:34:00.673+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:34:00.672+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:34:00.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.050 seconds
+[2024-09-19T19:34:30.887+0000] {processor.py:186} INFO - Started process (PID=653) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:34:30.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:34:30.890+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:34:30.890+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:34:30.896+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:34:30.908+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:34:30.908+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:34:30.914+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:34:30.914+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:34:30.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.040 seconds
+[2024-09-19T19:35:01.077+0000] {processor.py:186} INFO - Started process (PID=679) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:35:01.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:35:01.081+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:35:01.080+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:35:01.088+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:35:01.106+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:35:01.106+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:35:01.113+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:35:01.113+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:35:01.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.049 seconds
+[2024-09-19T19:35:31.322+0000] {processor.py:186} INFO - Started process (PID=705) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:35:31.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:35:31.324+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:35:31.324+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:35:31.328+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:35:31.341+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:35:31.341+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:35:31.349+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:35:31.349+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:35:31.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.038 seconds
+[2024-09-19T19:36:01.572+0000] {processor.py:186} INFO - Started process (PID=724) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:36:01.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:36:01.578+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:36:01.577+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:36:01.590+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:36:01.632+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:36:01.632+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:36:01.641+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:36:01.641+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:36:01.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.083 seconds
+[2024-09-19T19:36:31.797+0000] {processor.py:186} INFO - Started process (PID=750) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:36:31.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:36:31.799+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:36:31.799+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:36:31.805+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:36:31.820+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:36:31.820+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:36:31.832+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:36:31.832+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:36:31.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.048 seconds
+[2024-09-19T19:37:02.047+0000] {processor.py:186} INFO - Started process (PID=776) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:37:02.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:37:02.052+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:37:02.051+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:37:02.065+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:37:02.083+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:37:02.083+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:37:02.090+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:37:02.090+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:37:02.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.064 seconds
+[2024-09-19T19:37:32.306+0000] {processor.py:186} INFO - Started process (PID=795) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:37:32.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:37:32.312+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:37:32.312+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:37:32.322+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:37:32.337+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:37:32.337+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:37:32.345+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:37:32.345+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:37:32.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.059 seconds
+[2024-09-19T19:38:02.564+0000] {processor.py:186} INFO - Started process (PID=821) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:38:02.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:38:02.567+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:38:02.566+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:38:02.573+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:38:02.588+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:38:02.588+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:38:02.605+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:38:02.605+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:38:02.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.091 seconds
+[2024-09-19T19:38:32.812+0000] {processor.py:186} INFO - Started process (PID=848) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:38:32.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:38:32.816+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:38:32.815+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:38:32.822+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:38:32.835+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:38:32.835+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:38:32.843+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:38:32.843+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:38:32.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.052 seconds
+[2024-09-19T19:39:03.096+0000] {processor.py:186} INFO - Started process (PID=874) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:39:03.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:39:03.098+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:39:03.097+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:39:03.102+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:39:03.115+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:39:03.115+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:39:03.122+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:39:03.122+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:39:03.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.037 seconds
+[2024-09-19T19:39:33.334+0000] {processor.py:186} INFO - Started process (PID=893) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:39:33.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:39:33.336+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:39:33.335+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:39:33.341+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:39:33.355+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:39:33.355+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:39:33.362+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:39:33.362+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:39:33.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.039 seconds
+[2024-09-19T19:40:03.551+0000] {processor.py:186} INFO - Started process (PID=919) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:40:03.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:40:03.555+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:40:03.554+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:40:03.562+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:40:03.595+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:40:03.595+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:40:03.630+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:40:03.630+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:40:03.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.123 seconds
+[2024-09-19T19:40:33.800+0000] {processor.py:186} INFO - Started process (PID=946) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:40:33.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:40:33.804+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:40:33.804+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:40:33.812+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:40:33.824+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:40:33.824+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:40:33.831+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:40:33.831+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:40:33.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.049 seconds
+[2024-09-19T19:41:04.029+0000] {processor.py:186} INFO - Started process (PID=965) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:41:04.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:41:04.031+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:41:04.031+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:41:04.036+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:41:04.049+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:41:04.049+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:41:04.055+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:41:04.055+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:41:04.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.040 seconds
+[2024-09-19T19:41:34.249+0000] {processor.py:186} INFO - Started process (PID=991) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:41:34.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:41:34.253+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:41:34.253+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:41:34.259+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:41:34.286+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:41:34.286+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:41:34.302+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:41:34.302+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:41:34.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.078 seconds
+[2024-09-19T19:42:04.401+0000] {processor.py:186} INFO - Started process (PID=1017) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:42:04.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:42:04.404+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:42:04.404+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:42:04.409+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:42:04.422+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:42:04.422+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:42:04.429+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:42:04.429+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:42:04.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.048 seconds
+[2024-09-19T19:42:34.568+0000] {processor.py:186} INFO - Started process (PID=1036) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:42:34.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:42:34.570+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:42:34.569+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:42:34.574+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:42:34.589+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:42:34.589+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:42:34.598+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:42:34.598+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:42:34.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.044 seconds
+[2024-09-19T19:43:04.690+0000] {processor.py:186} INFO - Started process (PID=1062) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:43:04.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:43:04.692+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:43:04.692+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:43:04.698+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:43:04.721+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:43:04.721+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:43:04.737+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:43:04.736+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:43:04.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.065 seconds
+[2024-09-19T19:43:34.889+0000] {processor.py:186} INFO - Started process (PID=1088) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:43:34.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:43:34.891+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:43:34.891+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:43:34.896+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:43:34.917+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:43:34.916+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:43:34.933+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:43:34.933+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:43:34.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.064 seconds
+[2024-09-19T19:44:05.128+0000] {processor.py:186} INFO - Started process (PID=1107) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:44:05.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:44:05.134+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:44:05.134+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:44:05.146+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:44:05.161+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:44:05.161+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:44:05.172+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:44:05.172+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:44:05.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.082 seconds
+[2024-09-19T19:44:35.402+0000] {processor.py:186} INFO - Started process (PID=1133) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:44:35.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:44:35.405+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:44:35.405+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:44:35.413+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:44:35.436+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:44:35.436+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:44:35.458+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:44:35.458+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:44:35.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.093 seconds
+[2024-09-19T19:45:05.617+0000] {processor.py:186} INFO - Started process (PID=1159) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:45:05.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:45:05.619+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:45:05.619+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:45:05.624+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:45:05.645+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:45:05.644+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:45:05.654+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:45:05.654+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:45:05.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.054 seconds
+[2024-09-19T19:45:35.839+0000] {processor.py:186} INFO - Started process (PID=1178) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:45:35.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:45:35.844+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:45:35.844+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:45:35.862+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:45:35.889+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:45:35.889+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:45:35.896+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:45:35.896+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:45:35.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.077 seconds
+[2024-09-19T19:46:06.108+0000] {processor.py:186} INFO - Started process (PID=1205) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:46:06.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:46:06.114+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:46:06.113+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:46:06.123+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:46:06.140+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:46:06.139+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:46:06.147+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:46:06.147+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:46:06.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.064 seconds
+[2024-09-19T19:46:36.325+0000] {processor.py:186} INFO - Started process (PID=1231) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:46:36.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:46:36.327+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:46:36.326+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:46:36.331+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:46:36.346+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:46:36.346+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:46:36.370+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:46:36.369+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:46:36.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.064 seconds
+[2024-09-19T19:47:06.557+0000] {processor.py:186} INFO - Started process (PID=1257) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:47:06.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:47:06.559+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:47:06.559+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:47:06.566+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:47:06.578+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:47:06.578+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:47:06.585+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:47:06.585+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:47:06.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.040 seconds
+[2024-09-19T19:47:36.817+0000] {processor.py:186} INFO - Started process (PID=1276) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:47:36.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:47:36.821+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:47:36.821+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:47:36.830+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:47:36.841+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:47:36.841+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:47:36.848+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:47:36.848+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:47:36.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.044 seconds
+[2024-09-19T19:48:07.067+0000] {processor.py:186} INFO - Started process (PID=1302) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:48:07.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:48:07.071+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:48:07.071+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:48:07.077+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:48:07.090+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:48:07.090+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:48:07.098+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:48:07.098+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:48:07.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.046 seconds
+[2024-09-19T19:48:37.287+0000] {processor.py:186} INFO - Started process (PID=1328) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:48:37.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:48:37.290+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:48:37.290+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:48:37.297+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:48:37.311+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:48:37.311+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:48:37.319+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:48:37.319+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:48:37.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.043 seconds
+[2024-09-19T19:49:07.479+0000] {processor.py:186} INFO - Started process (PID=1347) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:49:07.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:49:07.481+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:49:07.481+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:49:07.485+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:49:07.498+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:49:07.498+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:49:07.504+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:49:07.504+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:49:07.512+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.037 seconds
+[2024-09-19T19:49:37.695+0000] {processor.py:186} INFO - Started process (PID=1373) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:49:37.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:49:37.699+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:49:37.699+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:49:37.711+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:49:37.751+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:49:37.751+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:49:37.766+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:49:37.766+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:49:37.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.098 seconds
+[2024-09-19T19:50:07.923+0000] {processor.py:186} INFO - Started process (PID=1399) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:50:07.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:50:07.924+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:50:07.924+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:50:07.928+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:50:07.944+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:50:07.944+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:50:07.951+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:50:07.951+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:50:07.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.042 seconds
+[2024-09-19T19:50:38.200+0000] {processor.py:186} INFO - Started process (PID=1418) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:50:38.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:50:38.202+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:50:38.202+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:50:38.206+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:50:38.217+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:50:38.217+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:50:38.223+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:50:38.223+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:50:38.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.035 seconds
+[2024-09-19T19:51:08.443+0000] {processor.py:186} INFO - Started process (PID=1444) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:51:08.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:51:08.447+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:51:08.446+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:51:08.452+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:51:08.478+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:51:08.478+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:51:08.501+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:51:08.501+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:51:08.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.073 seconds
+[2024-09-19T19:51:38.704+0000] {processor.py:186} INFO - Started process (PID=1470) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:51:38.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:51:38.710+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:51:38.709+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:51:38.717+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:51:38.745+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:51:38.744+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:51:38.753+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:51:38.752+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:51:38.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.073 seconds
+[2024-09-19T19:52:08.986+0000] {processor.py:186} INFO - Started process (PID=1496) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:52:08.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:52:08.990+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:52:08.990+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:52:08.997+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:52:09.009+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:52:09.009+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:52:09.016+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:52:09.015+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:52:09.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.050 seconds
+[2024-09-19T19:52:39.235+0000] {processor.py:186} INFO - Started process (PID=1515) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:52:39.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:52:39.237+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:52:39.237+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:52:39.241+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:52:39.252+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:52:39.252+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:52:39.260+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:52:39.260+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:52:39.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.037 seconds
+[2024-09-19T19:53:09.464+0000] {processor.py:186} INFO - Started process (PID=1541) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:53:09.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:53:09.467+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:53:09.467+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:53:09.472+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:53:09.488+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:53:09.488+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:53:09.497+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:53:09.497+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:53:09.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.050 seconds
+[2024-09-19T19:53:39.713+0000] {processor.py:186} INFO - Started process (PID=1567) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:53:39.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:53:39.718+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:53:39.718+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:53:39.727+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:53:39.742+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:53:39.742+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:53:39.750+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:53:39.750+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:53:39.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.057 seconds
+[2024-09-19T19:54:09.940+0000] {processor.py:186} INFO - Started process (PID=1586) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:54:09.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:54:09.942+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:54:09.942+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:54:09.948+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:54:09.983+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:54:09.982+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:54:10.010+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:54:10.009+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:54:10.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.085 seconds
+[2024-09-19T19:54:40.229+0000] {processor.py:186} INFO - Started process (PID=1612) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:54:40.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:54:40.233+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:54:40.232+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:54:40.240+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:54:40.252+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:54:40.252+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:54:40.259+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:54:40.258+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:54:40.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.042 seconds
+[2024-09-19T19:55:10.462+0000] {processor.py:186} INFO - Started process (PID=1639) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:55:10.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:55:10.465+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:55:10.464+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:55:10.474+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:55:10.492+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:55:10.492+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:55:10.499+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:55:10.499+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:55:10.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.049 seconds
+[2024-09-19T19:55:40.691+0000] {processor.py:186} INFO - Started process (PID=1665) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:55:40.692+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:55:40.693+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:55:40.692+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:55:40.697+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:55:40.709+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:55:40.709+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:55:40.716+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:55:40.716+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:55:40.726+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.037 seconds
+[2024-09-19T19:56:10.945+0000] {processor.py:186} INFO - Started process (PID=1684) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:56:10.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:56:10.948+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:56:10.948+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:56:10.956+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:56:10.985+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:56:10.984+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:56:11.008+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:56:11.008+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:56:11.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.083 seconds
+[2024-09-19T19:56:41.109+0000] {processor.py:186} INFO - Started process (PID=1711) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:56:41.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:56:41.110+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:56:41.110+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:56:41.115+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:56:41.127+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:56:41.127+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:56:41.134+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:56:41.134+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:56:41.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.036 seconds
+[2024-09-19T19:57:11.350+0000] {processor.py:186} INFO - Started process (PID=1737) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:57:11.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:57:11.352+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:57:11.352+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:57:11.356+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:57:11.378+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:57:11.378+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:57:11.385+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:57:11.385+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:57:11.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.049 seconds
+[2024-09-19T19:57:41.603+0000] {processor.py:186} INFO - Started process (PID=1756) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:57:41.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:57:41.605+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:57:41.605+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:57:41.611+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:57:41.627+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:57:41.627+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:57:41.637+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:57:41.637+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:57:41.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.063 seconds
+[2024-09-19T19:58:11.859+0000] {processor.py:186} INFO - Started process (PID=1782) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:58:11.861+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:58:11.865+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:58:11.864+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:58:11.871+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:58:11.900+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:58:11.899+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:58:11.919+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:58:11.919+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:58:11.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.103 seconds
+[2024-09-19T19:58:42.146+0000] {processor.py:186} INFO - Started process (PID=1808) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:58:42.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:58:42.150+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:58:42.150+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:58:42.156+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:58:42.173+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:58:42.173+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:58:42.181+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:58:42.181+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:58:42.188+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.051 seconds
+[2024-09-19T19:59:12.408+0000] {processor.py:186} INFO - Started process (PID=1833) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:59:12.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:59:12.411+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:59:12.411+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:59:12.417+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:59:12.429+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:59:12.429+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:59:12.436+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:59:12.436+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:59:12.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.038 seconds
+[2024-09-19T19:59:42.675+0000] {processor.py:186} INFO - Started process (PID=1852) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:59:42.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T19:59:42.677+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:59:42.677+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:59:42.681+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T19:59:42.704+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:59:42.704+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T19:59:42.724+0000] {logging_mixin.py:190} INFO - [2024-09-19T19:59:42.723+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T19:59:42.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.082 seconds
+[2024-09-19T20:00:12.925+0000] {processor.py:186} INFO - Started process (PID=1878) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:00:12.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:00:12.931+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:00:12.931+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:00:12.941+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:00:12.961+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:00:12.961+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:00:12.967+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:00:12.967+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:00:12.974+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.060 seconds
+[2024-09-19T20:00:43.184+0000] {processor.py:186} INFO - Started process (PID=1904) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:00:43.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:00:43.187+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:00:43.187+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:00:43.195+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:00:43.214+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:00:43.214+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:00:43.220+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:00:43.220+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:00:43.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.049 seconds
+[2024-09-19T20:01:13.411+0000] {processor.py:186} INFO - Started process (PID=1923) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:01:13.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:01:13.413+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:01:13.413+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:01:13.417+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:01:13.430+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:01:13.430+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:01:13.436+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:01:13.436+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:01:13.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.038 seconds
+[2024-09-19T20:01:43.673+0000] {processor.py:186} INFO - Started process (PID=1949) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:01:43.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:01:43.675+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:01:43.675+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:01:43.681+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:01:43.692+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:01:43.692+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:01:43.698+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:01:43.698+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:01:43.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.038 seconds
+[2024-09-19T20:02:13.909+0000] {processor.py:186} INFO - Started process (PID=1975) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:02:13.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:02:13.912+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:02:13.912+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:02:13.919+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:02:13.935+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:02:13.935+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:02:13.942+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:02:13.942+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:02:13.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.046 seconds
+[2024-09-19T20:02:44.144+0000] {processor.py:186} INFO - Started process (PID=2001) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:02:44.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:02:44.146+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:02:44.146+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:02:44.151+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:02:44.166+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:02:44.166+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:02:44.174+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:02:44.174+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:02:44.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.042 seconds
+[2024-09-19T20:03:14.395+0000] {processor.py:186} INFO - Started process (PID=2020) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:03:14.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:03:14.400+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:03:14.399+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:03:14.412+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:03:14.437+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:03:14.437+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:03:14.443+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:03:14.443+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:03:14.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.066 seconds
+[2024-09-19T20:03:44.641+0000] {processor.py:186} INFO - Started process (PID=2046) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:03:44.642+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:03:44.644+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:03:44.643+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:03:44.650+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:03:44.693+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:03:44.692+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:03:44.713+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:03:44.713+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:03:44.725+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.097 seconds
+[2024-09-19T20:04:14.916+0000] {processor.py:186} INFO - Started process (PID=2072) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:04:14.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:04:14.918+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:04:14.918+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:04:14.922+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:04:14.937+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:04:14.936+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:04:14.945+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:04:14.945+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:04:14.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.040 seconds
+[2024-09-19T20:04:45.210+0000] {processor.py:186} INFO - Started process (PID=2091) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:04:45.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:04:45.213+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:04:45.213+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:04:45.222+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:04:45.249+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:04:45.248+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:04:45.264+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:04:45.264+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:04:45.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.079 seconds
+[2024-09-19T20:05:15.465+0000] {processor.py:186} INFO - Started process (PID=2117) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:05:15.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:05:15.468+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:05:15.468+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:05:15.474+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:05:15.486+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:05:15.486+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:05:15.494+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:05:15.494+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:05:15.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.048 seconds
+[2024-09-19T20:05:45.744+0000] {processor.py:186} INFO - Started process (PID=2143) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:05:45.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:05:45.749+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:05:45.748+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:05:45.757+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:05:45.776+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:05:45.776+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:05:45.783+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:05:45.783+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:05:45.791+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.052 seconds
+[2024-09-19T20:06:15.989+0000] {processor.py:186} INFO - Started process (PID=2169) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:06:15.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:06:15.991+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:06:15.991+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:06:15.997+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:06:16.012+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:06:16.012+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:06:16.021+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:06:16.020+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:06:16.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.047 seconds
+[2024-09-19T20:06:46.270+0000] {processor.py:186} INFO - Started process (PID=2188) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:06:46.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:06:46.274+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:06:46.274+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:06:46.285+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:06:46.312+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:06:46.312+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:06:46.319+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:06:46.319+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:06:46.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.066 seconds
+[2024-09-19T20:07:16.532+0000] {processor.py:186} INFO - Started process (PID=2214) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:07:16.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:07:16.534+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:07:16.534+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:07:16.538+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:07:16.564+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:07:16.563+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:07:16.583+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:07:16.583+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:07:16.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.064 seconds
+[2024-09-19T20:07:46.827+0000] {processor.py:186} INFO - Started process (PID=2240) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:07:46.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:07:46.831+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:07:46.830+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:07:46.836+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:07:46.847+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:07:46.847+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:07:46.866+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:07:46.865+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:07:46.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.061 seconds
+[2024-09-19T20:08:17.072+0000] {processor.py:186} INFO - Started process (PID=2259) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:08:17.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:08:17.075+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:08:17.075+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:08:17.083+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:08:17.098+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:08:17.098+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:08:17.104+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:08:17.104+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:08:17.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.046 seconds
+[2024-09-19T20:08:47.325+0000] {processor.py:186} INFO - Started process (PID=2286) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:08:47.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:08:47.330+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:08:47.329+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:08:47.343+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:08:47.358+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:08:47.358+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:08:47.364+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:08:47.364+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:08:47.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.055 seconds
+[2024-09-19T20:09:17.581+0000] {processor.py:186} INFO - Started process (PID=2312) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:09:17.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:09:17.586+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:09:17.585+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:09:17.592+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:09:17.608+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:09:17.608+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:09:17.616+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:09:17.616+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:09:17.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.053 seconds
+[2024-09-19T20:09:47.839+0000] {processor.py:186} INFO - Started process (PID=2338) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:09:47.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:09:47.840+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:09:47.840+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:09:47.845+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:09:47.858+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:09:47.857+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:09:47.864+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:09:47.864+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:09:47.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.036 seconds
+[2024-09-19T20:10:18.094+0000] {processor.py:186} INFO - Started process (PID=2357) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:10:18.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:10:18.098+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:10:18.098+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:10:18.104+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:10:18.134+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:10:18.134+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:10:18.142+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:10:18.142+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:10:18.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.065 seconds
+[2024-09-19T20:10:48.333+0000] {processor.py:186} INFO - Started process (PID=2383) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:10:48.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:10:48.336+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:10:48.335+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:10:48.341+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:10:48.355+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:10:48.354+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:10:48.362+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:10:48.362+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:10:48.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.041 seconds
+[2024-09-19T20:11:18.616+0000] {processor.py:186} INFO - Started process (PID=2409) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:11:18.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:11:18.623+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:11:18.623+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:11:18.632+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:11:18.647+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:11:18.647+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:11:18.655+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:11:18.655+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:11:18.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.057 seconds
+[2024-09-19T20:11:48.886+0000] {processor.py:186} INFO - Started process (PID=2428) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:11:48.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:11:48.890+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:11:48.890+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:11:48.895+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:11:48.908+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:11:48.907+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:11:48.914+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:11:48.914+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:11:48.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.046 seconds
+[2024-09-19T20:12:19.136+0000] {processor.py:186} INFO - Started process (PID=2455) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:12:19.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:12:19.140+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:12:19.140+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:12:19.148+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:12:19.160+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:12:19.160+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:12:19.166+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:12:19.166+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:12:19.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.042 seconds
+[2024-09-19T20:12:49.391+0000] {processor.py:186} INFO - Started process (PID=2481) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:12:49.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:12:49.394+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:12:49.394+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:12:49.401+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:12:49.413+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:12:49.413+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:12:49.420+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:12:49.420+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:12:49.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.044 seconds
+[2024-09-19T20:13:19.635+0000] {processor.py:186} INFO - Started process (PID=2507) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:13:19.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:13:19.637+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:13:19.637+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:13:19.643+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:13:19.659+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:13:19.659+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:13:19.670+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:13:19.670+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:13:19.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.051 seconds
+[2024-09-19T20:13:49.927+0000] {processor.py:186} INFO - Started process (PID=2526) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:13:49.928+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:13:49.929+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:13:49.929+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:13:49.933+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:13:49.945+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:13:49.945+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:13:49.951+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:13:49.951+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:13:49.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.036 seconds
+[2024-09-19T20:14:20.189+0000] {processor.py:186} INFO - Started process (PID=2552) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:14:20.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:14:20.192+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:14:20.192+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:14:20.199+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:14:20.211+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:14:20.211+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:14:20.217+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:14:20.217+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:14:20.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.045 seconds
+[2024-09-19T20:14:50.452+0000] {processor.py:186} INFO - Started process (PID=2578) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:14:50.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:14:50.455+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:14:50.455+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:14:50.462+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:14:50.475+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:14:50.475+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:14:50.484+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:14:50.484+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:14:50.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.049 seconds
+[2024-09-19T20:15:20.711+0000] {processor.py:186} INFO - Started process (PID=2597) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:15:20.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:15:20.716+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:15:20.715+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:15:20.725+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:15:20.760+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:15:20.760+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:15:20.771+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:15:20.771+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:15:20.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.080 seconds
+[2024-09-19T20:15:50.980+0000] {processor.py:186} INFO - Started process (PID=2623) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:15:50.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:15:50.987+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:15:50.986+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:15:50.994+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:15:51.018+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:15:51.018+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:15:51.046+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:15:51.045+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:15:51.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.108 seconds
+[2024-09-19T20:16:21.249+0000] {processor.py:186} INFO - Started process (PID=2649) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:16:21.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:16:21.251+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:16:21.251+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:16:21.255+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:16:21.268+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:16:21.268+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:16:21.275+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:16:21.274+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:16:21.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.042 seconds
+[2024-09-19T20:16:51.524+0000] {processor.py:186} INFO - Started process (PID=2675) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:16:51.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:16:51.526+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:16:51.526+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:16:51.530+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:16:51.541+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:16:51.541+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:16:51.548+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:16:51.548+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:16:51.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.034 seconds
+[2024-09-19T20:17:21.781+0000] {processor.py:186} INFO - Started process (PID=2694) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:17:21.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:17:21.785+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:17:21.785+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:17:21.792+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:17:21.826+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:17:21.825+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:17:21.841+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:17:21.840+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:17:21.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.084 seconds
+[2024-09-19T20:17:52.052+0000] {processor.py:186} INFO - Started process (PID=2720) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:17:52.052+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:17:52.054+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:17:52.053+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:17:52.060+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:17:52.076+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:17:52.076+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:17:52.083+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:17:52.083+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:17:52.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.044 seconds
+[2024-09-19T20:18:22.334+0000] {processor.py:186} INFO - Started process (PID=2746) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:18:22.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:18:22.336+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:18:22.336+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:18:22.340+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:18:22.365+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:18:22.364+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:18:22.372+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:18:22.372+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:18:22.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.053 seconds
+[2024-09-19T20:18:52.597+0000] {processor.py:186} INFO - Started process (PID=2765) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:18:52.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:18:52.600+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:18:52.600+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:18:52.608+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:18:52.623+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:18:52.623+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:18:52.631+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:18:52.631+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:18:52.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.045 seconds
+[2024-09-19T20:19:22.807+0000] {processor.py:186} INFO - Started process (PID=2791) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:19:22.808+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:19:22.809+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:19:22.809+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:19:22.816+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:19:22.831+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:19:22.830+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:19:22.845+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:19:22.844+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:19:22.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.053 seconds
+[2024-09-19T20:19:53.097+0000] {processor.py:186} INFO - Started process (PID=2817) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:19:53.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:19:53.099+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:19:53.099+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:19:53.103+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:19:53.117+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:19:53.116+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:19:53.125+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:19:53.124+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:19:53.132+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.039 seconds
+[2024-09-19T20:20:23.310+0000] {processor.py:186} INFO - Started process (PID=2843) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:20:23.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:20:23.312+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:20:23.312+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:20:23.317+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:20:23.329+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:20:23.328+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:20:23.335+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:20:23.335+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:20:23.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.036 seconds
+[2024-09-19T20:20:53.587+0000] {processor.py:186} INFO - Started process (PID=2862) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:20:53.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:20:53.592+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:20:53.592+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:20:53.602+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:20:53.619+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:20:53.619+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:20:53.626+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:20:53.626+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:20:53.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.056 seconds
+[2024-09-19T20:21:23.874+0000] {processor.py:186} INFO - Started process (PID=2888) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:21:23.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:21:23.878+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:21:23.877+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:21:23.882+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:21:23.902+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:21:23.902+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:21:23.908+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:21:23.908+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:21:23.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.051 seconds
+[2024-09-19T20:21:54.136+0000] {processor.py:186} INFO - Started process (PID=2914) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:21:54.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:21:54.139+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:21:54.138+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:21:54.147+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:21:54.160+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:21:54.160+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:21:54.166+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:21:54.166+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:21:54.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.041 seconds
+[2024-09-19T20:22:24.378+0000] {processor.py:186} INFO - Started process (PID=2933) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:22:24.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:22:24.382+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:22:24.382+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:22:24.393+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:22:24.422+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:22:24.422+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:22:24.429+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:22:24.429+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:22:24.438+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.066 seconds
+[2024-09-19T20:22:54.597+0000] {processor.py:186} INFO - Started process (PID=2959) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:22:54.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:22:54.600+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:22:54.600+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:22:54.606+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:22:54.630+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:22:54.630+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:22:54.641+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:22:54.641+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:22:54.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.066 seconds
+[2024-09-19T20:23:24.790+0000] {processor.py:186} INFO - Started process (PID=2985) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:23:24.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:23:24.792+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:23:24.791+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:23:24.796+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:23:24.807+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:23:24.807+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:23:24.814+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:23:24.814+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:23:24.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.036 seconds
+[2024-09-19T20:23:54.995+0000] {processor.py:186} INFO - Started process (PID=3011) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:23:54.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:23:54.997+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:23:54.997+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:23:55.001+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:23:55.014+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:23:55.014+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:23:55.024+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:23:55.024+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:23:55.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.039 seconds
+[2024-09-19T20:24:25.217+0000] {processor.py:186} INFO - Started process (PID=3031) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:24:25.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:24:25.219+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:24:25.219+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:24:25.224+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:24:25.240+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:24:25.240+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:24:25.251+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:24:25.251+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:24:25.263+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.050 seconds
+[2024-09-19T20:24:55.453+0000] {processor.py:186} INFO - Started process (PID=3057) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:24:55.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:24:55.456+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:24:55.456+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:24:55.462+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:24:55.478+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:24:55.477+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:24:55.485+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:24:55.485+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:24:55.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.044 seconds
+[2024-09-19T20:25:25.701+0000] {processor.py:186} INFO - Started process (PID=3083) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:25:25.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:25:25.706+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:25:25.705+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:25:25.714+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:25:25.744+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:25:25.743+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:25:25.756+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:25:25.756+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:25:25.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.077 seconds
+[2024-09-19T20:25:55.929+0000] {processor.py:186} INFO - Started process (PID=3102) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:25:55.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:25:55.932+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:25:55.931+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:25:55.939+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:25:55.958+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:25:55.958+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:25:55.966+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:25:55.965+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:25:55.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.055 seconds
+[2024-09-19T20:26:26.147+0000] {processor.py:186} INFO - Started process (PID=3128) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:26:26.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:26:26.149+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:26:26.149+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:26:26.153+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:26:26.166+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:26:26.166+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:26:26.175+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:26:26.175+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:26:26.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.039 seconds
+[2024-09-19T20:26:56.388+0000] {processor.py:186} INFO - Started process (PID=3154) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:26:56.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:26:56.391+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:26:56.391+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:26:56.397+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:26:56.416+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:26:56.416+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:26:56.426+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:26:56.426+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:26:56.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.060 seconds
+[2024-09-19T20:27:26.634+0000] {processor.py:186} INFO - Started process (PID=3173) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:27:26.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:27:26.636+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:27:26.635+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:27:26.640+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:27:26.652+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:27:26.652+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:27:26.658+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:27:26.658+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:27:26.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.039 seconds
+[2024-09-19T20:27:56.902+0000] {processor.py:186} INFO - Started process (PID=3199) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:27:56.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:27:56.903+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:27:56.903+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:27:56.907+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:27:56.920+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:27:56.920+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:27:56.929+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:27:56.928+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:27:56.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.038 seconds
+[2024-09-19T20:28:27.140+0000] {processor.py:186} INFO - Started process (PID=3225) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:28:27.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:28:27.142+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:28:27.142+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:28:27.146+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:28:27.160+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:28:27.160+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:28:27.167+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:28:27.167+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:28:27.175+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.039 seconds
+[2024-09-19T20:28:57.379+0000] {processor.py:186} INFO - Started process (PID=3251) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:28:57.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:28:57.380+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:28:57.380+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:28:57.385+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:28:57.396+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:28:57.395+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:28:57.402+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:28:57.402+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:28:57.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.035 seconds
+[2024-09-19T20:29:27.629+0000] {processor.py:186} INFO - Started process (PID=3270) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:29:27.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:29:27.634+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:29:27.634+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:29:27.641+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:29:27.661+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:29:27.660+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:29:27.668+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:29:27.668+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:29:27.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.056 seconds
+[2024-09-19T20:29:57.877+0000] {processor.py:186} INFO - Started process (PID=3296) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:29:57.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:29:57.879+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:29:57.878+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:29:57.883+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:29:57.900+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:29:57.900+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:29:57.912+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:29:57.912+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:29:57.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.047 seconds
+[2024-09-19T20:30:28.108+0000] {processor.py:186} INFO - Started process (PID=3322) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:30:28.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:30:28.110+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:30:28.110+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:30:28.114+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:30:28.126+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:30:28.126+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:30:28.133+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:30:28.133+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:30:28.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.036 seconds
+[2024-09-19T20:30:58.371+0000] {processor.py:186} INFO - Started process (PID=3341) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:30:58.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:30:58.374+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:30:58.374+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:30:58.381+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:30:58.396+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:30:58.396+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:30:58.402+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:30:58.402+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:30:58.410+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.046 seconds
+[2024-09-19T20:31:28.607+0000] {processor.py:186} INFO - Started process (PID=3367) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:31:28.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:31:28.609+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:31:28.609+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:31:28.614+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:31:28.633+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:31:28.633+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:31:28.640+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:31:28.640+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:31:28.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.044 seconds
+[2024-09-19T20:31:58.847+0000] {processor.py:186} INFO - Started process (PID=3393) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:31:58.848+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:31:58.849+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:31:58.849+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:31:58.853+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:31:58.869+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:31:58.869+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:31:58.876+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:31:58.876+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:31:58.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.040 seconds
+[2024-09-19T20:32:29.051+0000] {processor.py:186} INFO - Started process (PID=3419) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:32:29.052+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:32:29.053+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:32:29.053+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:32:29.057+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:32:29.073+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:32:29.073+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:32:29.082+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:32:29.082+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:32:29.095+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.047 seconds
+[2024-09-19T20:32:59.272+0000] {processor.py:186} INFO - Started process (PID=3438) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:32:59.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:32:59.274+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:32:59.274+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:32:59.278+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:32:59.294+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:32:59.293+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:32:59.302+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:32:59.302+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:32:59.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.040 seconds
+[2024-09-19T20:33:29.511+0000] {processor.py:186} INFO - Started process (PID=3464) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:33:29.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:33:29.517+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:33:29.517+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:33:29.534+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:33:29.587+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:33:29.587+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:33:29.595+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:33:29.595+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:33:29.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.105 seconds
+[2024-09-19T20:33:59.745+0000] {processor.py:186} INFO - Started process (PID=3490) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:33:59.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:33:59.751+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:33:59.751+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:33:59.760+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:33:59.782+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:33:59.781+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:33:59.800+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:33:59.800+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:33:59.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.078 seconds
+[2024-09-19T20:34:30.062+0000] {processor.py:186} INFO - Started process (PID=3509) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:34:30.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:34:30.065+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:34:30.065+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:34:30.074+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:34:30.113+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:34:30.113+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:34:30.120+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:34:30.120+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:34:30.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.077 seconds
+[2024-09-19T20:35:00.278+0000] {processor.py:186} INFO - Started process (PID=3535) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:35:00.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:35:00.280+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:35:00.280+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:35:00.284+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:35:00.299+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:35:00.299+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:35:00.308+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:35:00.308+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:35:00.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.045 seconds
+[2024-09-19T20:35:30.478+0000] {processor.py:186} INFO - Started process (PID=3561) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:35:30.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:35:30.482+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:35:30.482+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:35:30.490+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:35:30.515+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:35:30.514+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:35:30.521+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:35:30.521+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:35:30.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.056 seconds
+[2024-09-19T20:36:00.716+0000] {processor.py:186} INFO - Started process (PID=3581) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:36:00.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:36:00.718+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:36:00.718+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:36:00.724+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:36:00.771+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:36:00.771+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:36:00.783+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:36:00.782+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:36:00.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.088 seconds
+[2024-09-19T20:36:30.953+0000] {processor.py:186} INFO - Started process (PID=3607) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:36:30.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:36:30.957+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:36:30.957+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:36:30.968+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:36:30.997+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:36:30.996+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:36:31.020+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:36:31.020+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:36:31.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.091 seconds
+[2024-09-19T20:37:01.199+0000] {processor.py:186} INFO - Started process (PID=3633) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:37:01.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:37:01.204+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:37:01.203+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:37:01.211+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:37:01.236+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:37:01.235+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:37:01.253+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:37:01.252+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:37:01.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.107 seconds
+[2024-09-19T20:37:31.477+0000] {processor.py:186} INFO - Started process (PID=3659) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:37:31.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:37:31.481+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:37:31.480+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:37:31.488+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:37:31.529+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:37:31.529+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:37:31.547+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:37:31.546+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:37:31.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.097 seconds
+[2024-09-19T20:38:01.715+0000] {processor.py:186} INFO - Started process (PID=3678) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:38:01.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:38:01.717+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:38:01.717+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:38:01.721+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:38:01.734+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:38:01.733+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:38:01.740+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:38:01.740+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:38:01.748+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.036 seconds
+[2024-09-19T20:38:31.976+0000] {processor.py:186} INFO - Started process (PID=3704) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:38:31.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:38:31.978+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:38:31.978+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:38:31.982+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:38:31.995+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:38:31.995+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:38:32.002+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:38:32.002+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:38:32.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.038 seconds
+[2024-09-19T20:39:02.192+0000] {processor.py:186} INFO - Started process (PID=3730) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:39:02.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:39:02.194+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:39:02.194+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:39:02.199+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:39:02.222+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:39:02.222+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:39:02.245+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:39:02.244+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:39:02.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.102 seconds
+[2024-09-19T20:39:32.483+0000] {processor.py:186} INFO - Started process (PID=3749) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:39:32.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:39:32.486+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:39:32.486+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:39:32.491+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:39:32.511+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:39:32.511+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:39:32.531+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:39:32.531+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:39:32.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.068 seconds
+[2024-09-19T20:40:02.767+0000] {processor.py:186} INFO - Started process (PID=3775) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:40:02.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:40:02.771+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:40:02.771+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:40:02.779+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:40:02.791+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:40:02.791+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:40:02.798+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:40:02.798+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:40:02.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.046 seconds
+[2024-09-19T20:40:32.976+0000] {processor.py:186} INFO - Started process (PID=3801) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:40:32.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:40:32.978+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:40:32.978+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:40:32.983+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:40:33.004+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:40:33.004+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:40:33.014+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:40:33.014+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:40:33.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.057 seconds
+[2024-09-19T20:41:03.206+0000] {processor.py:186} INFO - Started process (PID=3827) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:41:03.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:41:03.208+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:41:03.208+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:41:03.213+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:41:03.229+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:41:03.228+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:41:03.239+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:41:03.239+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:41:03.248+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.045 seconds
+[2024-09-19T20:41:33.452+0000] {processor.py:186} INFO - Started process (PID=3846) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:41:33.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:41:33.455+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:41:33.454+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:41:33.461+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:41:33.486+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:41:33.486+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:41:33.497+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:41:33.497+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:41:33.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.073 seconds
+[2024-09-19T20:42:03.711+0000] {processor.py:186} INFO - Started process (PID=3872) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:42:03.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:42:03.713+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:42:03.712+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:42:03.717+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:42:03.743+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:42:03.742+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:42:03.752+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:42:03.752+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:42:03.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.053 seconds
+[2024-09-19T20:42:33.926+0000] {processor.py:186} INFO - Started process (PID=3898) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:42:33.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:42:33.928+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:42:33.928+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:42:33.934+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:42:33.948+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:42:33.947+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:42:33.956+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:42:33.956+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:42:33.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.044 seconds
+[2024-09-19T20:43:04.185+0000] {processor.py:186} INFO - Started process (PID=3917) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:43:04.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:43:04.188+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:43:04.187+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:43:04.193+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:43:04.207+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:43:04.207+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:43:04.215+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:43:04.215+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:43:04.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.045 seconds
+[2024-09-19T20:43:34.417+0000] {processor.py:186} INFO - Started process (PID=3943) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:43:34.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:43:34.420+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:43:34.420+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:43:34.428+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:43:34.453+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:43:34.453+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:43:34.462+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:43:34.461+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:43:34.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.062 seconds
+[2024-09-19T20:44:04.602+0000] {processor.py:186} INFO - Started process (PID=3969) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:44:04.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:44:04.605+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:44:04.604+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:44:04.612+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:44:04.633+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:44:04.632+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:44:04.645+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:44:04.645+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:44:04.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.060 seconds
+[2024-09-19T20:44:34.921+0000] {processor.py:186} INFO - Started process (PID=3988) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:44:34.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:44:34.924+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:44:34.924+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:44:34.930+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:44:34.948+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:44:34.947+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:44:34.959+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:44:34.959+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:44:34.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.054 seconds
+[2024-09-19T20:45:05.164+0000] {processor.py:186} INFO - Started process (PID=4014) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:45:05.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:45:05.167+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:45:05.167+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:45:05.173+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:45:05.197+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:45:05.196+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:45:05.216+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:45:05.216+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:45:05.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.096 seconds
+[2024-09-19T20:45:35.433+0000] {processor.py:186} INFO - Started process (PID=4040) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:45:35.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:45:35.437+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:45:35.437+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:45:35.444+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:45:35.456+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:45:35.456+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:45:35.462+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:45:35.462+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:45:35.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.048 seconds
+[2024-09-19T20:46:05.691+0000] {processor.py:186} INFO - Started process (PID=4066) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:46:05.692+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:46:05.693+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:46:05.693+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:46:05.697+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:46:05.713+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:46:05.713+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:46:05.726+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:46:05.725+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:46:05.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.058 seconds
+[2024-09-19T20:46:35.933+0000] {processor.py:186} INFO - Started process (PID=4085) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:46:35.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:46:35.936+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:46:35.936+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:46:35.949+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:46:35.975+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:46:35.975+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:46:35.984+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:46:35.983+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:46:35.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.074 seconds
+[2024-09-19T20:47:06.206+0000] {processor.py:186} INFO - Started process (PID=4111) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:47:06.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:47:06.208+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:47:06.207+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:47:06.212+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:47:06.229+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:47:06.229+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:47:06.246+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:47:06.246+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:47:06.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.056 seconds
+[2024-09-19T20:47:36.454+0000] {processor.py:186} INFO - Started process (PID=4137) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:47:36.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:47:36.457+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:47:36.457+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:47:36.461+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:47:36.478+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:47:36.478+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:47:36.485+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:47:36.485+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:47:36.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.051 seconds
+[2024-09-19T20:48:06.697+0000] {processor.py:186} INFO - Started process (PID=4156) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:48:06.698+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:48:06.699+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:48:06.699+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:48:06.703+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:48:06.716+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:48:06.716+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:48:06.728+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:48:06.727+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:48:06.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.050 seconds
+[2024-09-19T20:48:36.947+0000] {processor.py:186} INFO - Started process (PID=4182) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:48:36.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:48:36.948+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:48:36.948+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:48:36.953+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:48:36.969+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:48:36.969+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:48:36.977+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:48:36.977+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:48:36.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.045 seconds
+[2024-09-19T20:49:07.197+0000] {processor.py:186} INFO - Started process (PID=4208) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:49:07.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:49:07.202+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:49:07.201+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:49:07.211+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:49:07.226+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:49:07.225+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:49:07.232+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:49:07.232+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:49:07.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.049 seconds
+[2024-09-19T20:49:37.452+0000] {processor.py:186} INFO - Started process (PID=4234) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:49:37.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:49:37.456+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:49:37.456+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:49:37.463+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:49:37.476+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:49:37.476+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:49:37.485+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:49:37.485+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:49:37.494+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.053 seconds
+[2024-09-19T20:50:07.710+0000] {processor.py:186} INFO - Started process (PID=4253) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:50:07.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:50:07.712+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:50:07.712+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:50:07.717+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:50:07.729+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:50:07.729+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:50:07.735+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:50:07.735+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:50:07.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.039 seconds
+[2024-09-19T20:50:37.946+0000] {processor.py:186} INFO - Started process (PID=4279) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:50:37.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:50:37.947+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:50:37.947+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:50:37.951+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:50:37.965+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:50:37.965+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:50:37.972+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:50:37.972+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:50:37.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.039 seconds
+[2024-09-19T20:51:08.181+0000] {processor.py:186} INFO - Started process (PID=4305) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:51:08.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:51:08.186+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:51:08.185+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:51:08.194+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:51:08.221+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:51:08.221+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:51:08.237+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:51:08.237+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:51:08.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.081 seconds
+[2024-09-19T20:51:38.429+0000] {processor.py:186} INFO - Started process (PID=4324) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:51:38.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:51:38.432+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:51:38.432+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:51:38.437+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:51:38.451+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:51:38.451+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:51:38.458+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:51:38.458+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:51:38.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.046 seconds
+[2024-09-19T20:52:08.695+0000] {processor.py:186} INFO - Started process (PID=4350) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:52:08.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:52:08.697+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:52:08.697+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:52:08.702+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:52:08.717+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:52:08.717+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:52:08.725+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:52:08.725+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:52:08.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.041 seconds
+[2024-09-19T20:52:38.928+0000] {processor.py:186} INFO - Started process (PID=4377) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:52:38.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:52:38.932+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:52:38.932+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:52:38.939+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:52:38.971+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:52:38.971+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:52:38.991+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:52:38.991+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:52:39.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.088 seconds
+[2024-09-19T20:53:09.145+0000] {processor.py:186} INFO - Started process (PID=4404) to work on /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:53:09.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scrape_flats.py for tasks to queue
+[2024-09-19T20:53:09.146+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:53:09.146+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:53:09.150+0000] {processor.py:925} INFO - DAG(s) 'docker_operator_example' retrieved from /opt/airflow/dags/scrape_flats.py
+[2024-09-19T20:53:09.167+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:53:09.167+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T20:53:09.176+0000] {logging_mixin.py:190} INFO - [2024-09-19T20:53:09.176+0000] {dag.py:4156} INFO - Setting next_dagrun for docker_operator_example to None, run_after=None
+[2024-09-19T20:53:09.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scrape_flats.py took 0.042 seconds
